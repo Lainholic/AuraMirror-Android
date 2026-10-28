@@ -19,8 +19,8 @@
    - Immediately freezes the snapped photo on screen so the user can lower their phone while the ~5–8 second cloud analysis completes.
 2. **Real-Time YouCam 9-Vector Skin AI + 9 Interactive PNG Mask Overlays (`ResultScreen.kt`)**:
    - Evaluates **Oiliness, Dark Circles, Moisture, Redness, Pores, Acne, Wrinkles, Texture, and Age Spots** with interactive per-metric translucent mask overlays, a 6-axis **Skin Balance Radar Chart**, and local scan-to-scan delta tracking (`▲/▼`).
-3. **Health Connect Wearable Sleep Fusion (`HealthConnectManager.kt`)**:
-   - Reads the user's real last-night sleep duration from Android Health Connect to contextualize daily skin recovery.
+3. **Optional Health Connect Sleep Context (`HealthConnectManager.kt`)**:
+   - Reads the user's last-night sleep duration when Android Health Connect is available (with an expandable lifestyle simulator fallback).
 4. **eCommerce Skincare Discovery & INCI Ingredient Safety Guard (O/X)**:
    - Maps measured skin concerns to targeted active ingredients (Salicylic Acid BHA, Caffeine + EGCG, 5D Hyaluronic Acid, Centella Asiatica, Niacinamide + Zinc) with one-tap **`🛍️ Shop / Explore`** links localized to the user's selected language and region (`EN` / `JA` / `ZH` / `KO`).
    - Includes an interactive **INCI Ingredient Safety Guard (O/X)** to cross-check any cosmetic product's ingredient list against the user's measured skin scores.
